@@ -1,0 +1,32 @@
+Dimensionality Reduction – Air Pollution Dataset
+
+Context:
+Air pollution is something we all experience—whether we’re indoors or outdoors, in big cities or rural areas. It’s often invisible but has a real impact on our health and environment. Over the past few decades, we've seen a steady increase in the permissible levels of pollutants in the air. This has contributed not only to worsening air quality but also to changes in weather patterns and the more frequent occurrence of smog. The harmful effects on public health are significant and can even disrupt local economies. Urban areas, in particular, are struggling with the health consequences of rising pollution levels.
+
+In this case study, we'll dive into and visualize an air pollution dataset. It includes detailed records of air pollutants and meteorological data, helping us better understand the composition and trends of air quality in a city over time.
+
+Objective:
+The main goal here is to apply dimensionality reduction techniques, such as PCA (Principal Component Analysis) and t-SNE (t-distributed Stochastic Neighbor Embedding), to simplify the dataset by reducing the number of features—while still preserving the key patterns and insights.
+
+Dataset Overview:
+
+    The dataset covers 13 months of air quality and weather data from a city.
+
+    It includes average daily readings of several pollutants:
+
+        Nitric Oxide (NO), Nitrogen Dioxide (NO₂), Oxides of Nitrogen
+
+        Ozone, PM10, PM2.5 (Particulate Matter), Sulphur Dioxide (SO₂), Benzene, Toluene, and p-Xylene
+
+        Units: Micrograms per cubic meter of air (µg/m³)
+
+    Meteorological features include:
+
+        Wind Speed, Vertical Wind Speed, Barometric Pressure, Temperature, Wind Direction, and Weather condition
+
+    The dataset also provides previous day readings (prefix PD_) for five pollutants:
+
+        PD_PM10, PD_NO2, PD_SO2, PD_CO, and PD_PM2.5
+
+    Each record is timestamped by a Date field, indicating when the data was captured.
+
